@@ -6,6 +6,8 @@ public class ThrowAnim : MonoBehaviour
 {
     public Animator Ani;
 
+    public Throw throwScript;
+
     bool Throw = false;
 
     void Update()
@@ -21,5 +23,10 @@ public class ThrowAnim : MonoBehaviour
             Throw = false;
             Ani.SetBool("throw", false);
         }
+    }
+
+    void ThrowTheBall()
+    {
+        throwScript.ThrowBall();
     }
 }

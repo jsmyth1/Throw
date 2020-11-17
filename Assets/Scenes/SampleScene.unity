@@ -231,8 +231,8 @@ GameObject:
   - component: {fileID: 536894909}
   - component: {fileID: 536894908}
   - component: {fileID: 536894907}
-  - component: {fileID: 536894910}
   - component: {fileID: 536894911}
+  - component: {fileID: 536894910}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -336,7 +336,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536894905}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.0000001
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -1591,6 +1591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ani: {fileID: 4967211801754185829}
+  throwScript: {fileID: 536894910}
 --- !u!54 &4967211801754185833
 Rigidbody:
   m_ObjectHideFlags: 0
